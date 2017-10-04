@@ -1,0 +1,209 @@
+  /*
+.yui-skin-sam .yui-ac{position:relative;}
+
+.yui-skin-sam .yui-ac-input{position:relative;width:100%;}
+.yui-skin-sam .yui-ac-container{position:absolute;top:1.6em;width:100%;}
+*/
+.yui-skin-sam .yui-ac-content{position:absolute;width:100%;border:1px solid #808080;background:#fff;overflow:hidden;z-index:9050;}
+.yui-skin-sam .yui-ac-shadow{position:absolute;margin:.3em;width:100%;background:#000;-moz-opacity:.10;opacity:.10;filter:alpha(opacity=10);z-index:9049;}.yui-skin-sam .yui-ac iframe{opacity:0;filter:alpha(opacity=0);padding-right:.3em;padding-bottom:.3em;}.yui-skin-sam .yui-ac-content ul{margin:0;padding:0;width:100%;}.yui-skin-sam .yui-ac-content li{margin:0;padding:2px 5px;cursor:default;white-space:nowrap;list-style:none;zoom:1;}.yui-skin-sam .yui-ac-content li.yui-ac-prehighlight{background:#B3D4FF;}.yui-skin-sam .yui-ac-content li.yui-ac-highlight{background:#426FD9;color:#FFF;}
+  
+  body {
+    background: black;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    min-width: 460px;
+    min-height: 305px;
+  }
+  
+  a {
+    color: #e2acf9;
+  }
+  
+  a:visited, a:hover {
+    color: #CC611F
+  }
+  
+  button {
+    width: 50%;
+    height: 2.0833em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 0px 0.5em;
+    background: #e2acf9; /* violet */
+    border-radius: 3px 3px;
+    border-width: 0px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: middle;
+    white-space: nowrap; 
+    display: block;
+  }
+  
+  button:hover, button:focus {
+    background: #e2acf9;
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#e2acf9),to(#af20cc));
+    outline:0;
+  }
+   
+  #footer {
+    bottom: 4%;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 3%;
+    width: 90%;
+  }
+  
+  #footer a:hover,a:visited {
+    color: #e2acf9;
+  }
+
+  #footer-options {
+    float: left;
+  }
+  
+  .card {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 92%;
+    height: 80%;
+    border: 1px solid #e2acf9;
+    border-radius: 1.2em;
+    background: white;
+    position: absolute;
+  }
+  
+  .note {
+    position: absolute;
+    bottom: 5px;
+    padding-left: 5px;
+    width: 100%;
+    font-size: .7em;
+    font-style: italic;
+  }
+
+  #options-list {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  #front-question {
+    font-weight: bold;
+    font-size: 1.4em; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #253487; /* couleur question : bleu marine */
+  }
+  
+  #front-typein {
+    margin: auto;
+    width: 80%;
+  }
+
+  #front-input {
+    font-size: 2em;
+  }
+
+  #front-autocomplete, #front-input {
+    width: 100%;
+  }
+  
+  #back-result {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-top: 5%;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  
+  #back-result img {
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+  }
+  
+  #back-country, #back-capital {
+    font-weight: bold;
+  }
+  
+  #back-answer {
+    clear: left;
+    font-size: 1.2em;
+    text-align: center;
+    height: 150px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  #back-info {
+    padding-top: 20px;
+  }
+  
+  #back-answer img {
+    /* border: 2px solid #FF9654; */
+	margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  #back-stat {
+    font-size: .5em;
+  }
+  
+  #back-img {
+    cursor: pointer;
+  }
+  
+  #back-nextbutton {
+    margin-top: 20px;
+  }
+  
+  #stats {
+    padding: 5px;
+    font-size: .9em;
+  }
+  
+  #stats-legend {
+    float: left;
+    width: 40%;
+    height: 90%;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  #stats-bad {
+    color: red;
+  }
+  
+  #stats-good {
+    color: green;
+  }
+  
+  #stats-arrow {
+    height: 90px;
+    font-size: 4em;
+    padding-top: 15px;
+    color: #ffcc00;
+  }
+  
+  #stats-chart {
+    width: 200px;
+    height: 140px;
+    float: left;
+  }
+  
+  #img_next_card {
+	  border: none;
+	  vertical-align: middle;
+  }
+  

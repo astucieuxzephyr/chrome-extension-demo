@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<script>
+	
+	function saluer() //gestion de la boite de dialogue
+		{
+			alert("Tanguy te salue");
+		}
+	</script>
+
+	<style>
+	body
+	{
+		background-color:#e6e6f2;
+		min-width:200px;
+        overflow-x:hidden;
+	}
+	
+	div#main{
+		width:100px;
+		height:100px;
+		background-color:red;
+	}
+	</style>
+</head>
+
+<body onload="saluer()">
+    <div id="main">
+    <h1>Ceci est un test de texte</h1>
+	<img onclick="saluer" id="zozor" src="http://www.siteduzero.com/Templates/images/designs/2/zozor3.png" alt="ERR : Image manquante"/>
+	</div>
+</body>
+</html>
